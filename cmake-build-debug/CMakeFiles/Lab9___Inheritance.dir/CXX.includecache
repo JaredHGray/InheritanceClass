@@ -1,0 +1,70 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/jaredgray/CLionProjects/Lab9 - Inheritance/BakedGood.h
+string
+-
+vector
+-
+
+/Users/jaredgray/CLionProjects/Lab9 - Inheritance/Bread.h
+BakedGood.h
+/Users/jaredgray/CLionProjects/Lab9 - Inheritance/BakedGood.h
+
+/Users/jaredgray/CLionProjects/Lab9 - Inheritance/Cake.cpp
+Cake.h
+/Users/jaredgray/CLionProjects/Lab9 - Inheritance/Cake.h
+string
+-
+
+/Users/jaredgray/CLionProjects/Lab9 - Inheritance/Cake.h
+BakedGood.h
+/Users/jaredgray/CLionProjects/Lab9 - Inheritance/BakedGood.h
+string
+-
+
+/Users/jaredgray/CLionProjects/Lab9 - Inheritance/CupCake.cpp
+CupCake.h
+/Users/jaredgray/CLionProjects/Lab9 - Inheritance/CupCake.h
+string
+-
+
+/Users/jaredgray/CLionProjects/Lab9 - Inheritance/CupCake.h
+Cake.h
+/Users/jaredgray/CLionProjects/Lab9 - Inheritance/Cake.h
+string
+-
+
+/Users/jaredgray/CLionProjects/Lab9 - Inheritance/LayerCake.cpp
+LayerCake.h
+/Users/jaredgray/CLionProjects/Lab9 - Inheritance/LayerCake.h
+string
+-
+
+/Users/jaredgray/CLionProjects/Lab9 - Inheritance/LayerCake.h
+Cake.h
+/Users/jaredgray/CLionProjects/Lab9 - Inheritance/Cake.h
+string
+-
+
+/Users/jaredgray/CLionProjects/Lab9 - Inheritance/main.cpp
+iostream
+-
+iomanip
+-
+Bread.h
+/Users/jaredgray/CLionProjects/Lab9 - Inheritance/Bread.h
+LayerCake.h
+/Users/jaredgray/CLionProjects/Lab9 - Inheritance/LayerCake.h
+CupCake.h
+/Users/jaredgray/CLionProjects/Lab9 - Inheritance/CupCake.h
+string
+-
+vector
+-
+
